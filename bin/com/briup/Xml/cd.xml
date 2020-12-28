@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cds[
+	<!ELEMENT cds (cd+)>
+	<!ELEMENT cd (TITLE,ARTIST,COUNTRY,COMPANY+,PRICE,YEAR?)>
+	<!ATTLIST cd code   ID    #REQUIRED>
+]>
+
+<cds>
+<cd code="A1">
+		<TITLE>Empire Burlesque</TITLE>
+		<ARTIST>Bob Dylan</ARTIST>
+		<COUNTRY>USA</COUNTRY>
+		<COMPANY>CBS</COMPANY>
+		<PRICE>10.90</PRICE>
+		<YEAR>1985</YEAR>
+</cd>
+</cds>

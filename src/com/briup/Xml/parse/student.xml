@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+	<stu id="1">
+	<name>tom</name>
+	<age>21</age>
+	</stu>
+	<stu id="2">
+	<name>t</name>
+	<age>21</age>
+	</stu>
+	<stu id="3">
+	<name>m</name>
+	<age>21</age>
+	</stu>
+</students>

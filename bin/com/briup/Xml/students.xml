@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students[
+	<!ELEMENT students (student+)>
+		<!ELEMENT student (first_name,last_name,age,gender?,address)>
+		
+		<!ELEMENT address (city,street,zip)>
+		
+
+]>
+<students>
+	<student>
+		<first_name>tom</first_name>
+		<last_name>jack</last_name>
+		<age>12</age>
+		<gender>mole</gender>
+		<address>
+			<city>甘肃</city>
+			<street>岐黄大道</street>
+			<zip>冯堡</zip>
+		</address>
+	</student>
+</students>

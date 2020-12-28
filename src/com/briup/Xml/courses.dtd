@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!ELEMENT courses(course+)>
+		<!ELEMENT course(n,name,time,teacher,class?)>
+		<!ELEMENT n (#PCDATA)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT time (#PCDATA)>
+		<!ELEMENT teacher (#PCDATA)>
+		
+		<!ATTLIST course class CADATA (#IMPLIED) >
+
+

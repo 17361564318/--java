@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee[
+	<!ELEMENT employee (emp)>
+	<!ELEMENT emp (id,age,depName,salary,gender)>
+	<!ATTLIST emp id ID #REQUIRED>
+	<!ATTLIST emp age CDATA "20">
+	<!ATTLIST emp depName (市场部|教学部|教学管理部) #REQUIRED>
+	<!ATTLIST emp salary CDATA #IMPLIED >
+	<!ATTLIST emp gender CDATA "male">
+	<!ELEMENT emp (name)>
+]>
+<employee>
+	<emp id="A1" age="18" depName="市场部" salary="123" gender="male">
+		<name>tom</name>
+	</emp>
+</employee>
